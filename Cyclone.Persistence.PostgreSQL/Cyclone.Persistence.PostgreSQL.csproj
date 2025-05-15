@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cyclone.Persistence.Core\Cyclone.Persistence.Core.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.Common\Cyclone.Persistence.Common.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.Abstractions\Cyclone.Persistence.Abstractions.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+	  <TargetFrameworks>net48;net8.0;net9.0</TargetFrameworks>
+	  <LangVersion>preview</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyVersion>1.25.5.0</AssemblyVersion>
+    <FileVersion>1.25.5.0</FileVersion>
+  </PropertyGroup>
+
+</Project>

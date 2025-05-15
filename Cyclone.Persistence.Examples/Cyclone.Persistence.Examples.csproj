@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cyclone.Persistence.Core\Cyclone.Persistence.Core.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.Common\Cyclone.Persistence.Common.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.Abstractions\Cyclone.Persistence.Abstractions.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.LiteDB\Cyclone.Persistence.LiteDB.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.SQLite\Cyclone.Persistence.SQLite.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.SqlServer\Cyclone.Persistence.SqlServer.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.PostgreSQL\Cyclone.Persistence.PostgreSQL.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.FreeSql\Cyclone.Persistence.FreeSql.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.EFCore\Cyclone.Persistence.EFCore.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.Caching\Cyclone.Persistence.Caching.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.Transactions\Cyclone.Persistence.Transactions.csproj" />
+    <ProjectReference Include="..\Cyclone.Persistence.Migration\Cyclone.Persistence.Migration.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+	  <TargetFrameworks>net48;net8.0;net9.0</TargetFrameworks>
+	  <LangVersion>preview</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyVersion>1.25.5.0</AssemblyVersion>
+    <FileVersion>1.25.5.0</FileVersion>
+  </PropertyGroup>
+
+</Project>
