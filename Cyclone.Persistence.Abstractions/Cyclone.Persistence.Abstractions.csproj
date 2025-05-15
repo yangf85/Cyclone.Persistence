@@ -9,4 +9,10 @@
     <FileVersion>1.25.5.0</FileVersion>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="新文件夹\**" />
+    <EmbeddedResource Remove="新文件夹\**" />
+    <None Remove="新文件夹\**" />
+  </ItemGroup>
+
 </Project>

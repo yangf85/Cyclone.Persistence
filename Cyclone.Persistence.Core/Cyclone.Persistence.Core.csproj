@@ -4,6 +4,13 @@
     <ProjectReference Include="..\Cyclone.Persistence.Abstractions\Cyclone.Persistence.Abstractions.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Context\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Logging\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
   <PropertyGroup>
 	  <TargetFrameworks>net48;net8.0;net9.0</TargetFrameworks>
 	  <LangVersion>preview</LangVersion>
